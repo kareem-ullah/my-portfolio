@@ -1,0 +1,240 @@
+body {
+  background-color: black !important;
+}
+
+/* ***************************************************header start************************************************************ */
+.header-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.h1 {
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(45, 58, 59);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(159, 162, 165) !important;
+}
+
+/* *********************************************************header end************************************************** */
+
+/* ********************************************************benar start***************************************************** */
+.benar {
+  display: flex;
+  /* background-color: rosybrown; */
+}
+.benar-content {
+  width: 50%;
+  height: 500px;
+}
+.img {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+}
+.benar-text {
+  width: 50%;
+  text-align: left;
+  padding: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(159, 162, 165);
+}
+
+/* ****************************************************benar end****************************************************** */
+
+/* ******************************************************benar 2 start************************************************* */
+
+.benar-2-ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.portfolio {
+  margin-top: 3rem;
+  margin-left: 30px;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: rgb(159, 162, 165);
+}
+.benar-2-ul li {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(159, 162, 165);
+}
+
+.benar-2-ul-2 {
+  display: flex;
+  list-style: none;
+}
+.benar-2-ul-2 li {
+  width: 50%;
+  height: 400px;
+  margin: 20px;
+  /* background-color: aquamarine; */
+}
+.benar-2-img {
+  width: 100%;
+  height: 400px;
+}
+.benar-2-img-2 {
+  width: 100%;
+  height: 400px;
+}
+.benar-img-li {
+  position: relative;
+}
+.benar-food {
+  padding: 40px 20px 0px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: rgb(159, 162, 165);
+}
+.fig-cap-1 {
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.fig-cap-2 {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.heading-1 {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.heading {
+  margin: 20px;
+}
+
+/* ****************************************************benar 2 end****************************************************** */
+
+/* ***********************************************benar 3 start**************************************************** */
+
+.benar-3-fig {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.react-text {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+/* ***********************************************benar 3 end**************************************************** */
+
+/* *********************************************benar 4 start********************************************* */
+
+.heading-h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(104, 100, 100);
+}
+
+.benar-4-ul-1 {
+  display: flex;
+  list-style: none;
+}
+.benar-4-ul-1 li {
+  width: 40%;
+  height: 200px;
+}
+
+.benar-4-img {
+  width: 100%;
+  height: 220px;
+  padding-left: 20px;
+}
+.benar-4-img-2 {
+  width: 100%;
+  height: 200px;
+}
+.benar-4-img-li {
+  position: relative;
+}
+.benar-4-fig-1 {
+  position: absolute;
+  top: 8%;
+  left: 7%;
+  color: white;
+}
+.benar-text-4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.benar-4-fig-2 {
+  margin-top: 3rem;
+  font-size: 20px;
+}
+
+/* ************************************************benar 4 end********************************************** */
+
+/* ********************************************benar 5 start************************************************ */
+
+.benar-5-ul-1 {
+  display: flex;
+  list-style: none;
+}
+.benar-5-img-2 {
+  width: 100%;
+  height: 200px;
+  margin-top: 3rem;
+}
+
+.benar-5-img-li-2 {
+  position: relative;
+}
+.benar-5-img-li-1 {
+  width: 56%;
+  height: 200px;
+}
+.benar-5-img-li-2 {
+  width: 40%;
+  height: 220px;
+}
+.benar-5-fig-1 {
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  color: white;
+}
+.benar-text-5 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.benar-5-fig-2 {
+  margin-top: 3rem;
+  font-size: 20px;
+}
+
+/* ***********************************************benar 5 end********************************************** */
+
+.container {
+  height: 60px;
+  padding-top: 20px;
+  background-color: rgb(138, 141, 137);
+  margin-top: 5rem;
+  border-radius: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.imageicon {
+  margin: 20px;
+}
