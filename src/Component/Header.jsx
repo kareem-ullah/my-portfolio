@@ -1,16 +1,25 @@
 import React from "react";
 import "../assets/style.css";
-import icon1 from "../assets/image/png-transparent-in-icon.png";
+
 
 
 function Header() {
   return (
     <div className="header">
-      <nav>
+      <div className="header-content-1">
         <ul class="header-ul">
-          <li class="h1">Kareem Ullah</li>
+          <li class="h1">H.M.K.U</li>
         </ul>
-      </nav>
+        </div>
+        <div className="header-content-2">
+        <ul>
+        <li className="content-2">HOME</li>
+        <li className="content-2">ABOUT</li>
+        <li className="content-2">CONTACT</li>
+        <li className="content-2">HOME</li>
+        </ul>
+        </div>
+      
     </div>
   );
 }

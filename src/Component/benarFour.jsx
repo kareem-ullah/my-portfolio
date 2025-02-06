@@ -5,25 +5,27 @@ function BenarFour() {
   return (
     <div>
       <section>
-        <h1 class="heading-h1">Education</h1>
+        <h1 class="heading-h1"></h1>
         <ul class="benar-4-ul-1">
+        <img class="benar-4-img" src={reactimg} alt="" />
           <li class="benar-4-img-li">
             <figcaption class="benar-4-fig-1">
               <span class="benar-text-5">
                 Software Engineer
-                <br /> Karachi
+                <br />
               </span>
               <br />
-              <figcaption class="benar-4-fig-2">
-                <span>
+              <figcaption>
+                <span class="benar-4-fig-2">
                   FORNTEND DEVELOPER
                   <br />
-                  Html | Css | javascript | React 
+                  Html | Css | javascript | React | Bootstrap | Material-UI | Github | Figma  
                 </span>
               </figcaption>
             </figcaption>
-            <img class="benar-4-img" src={reactimg} alt="" />
+            
           </li>
+          
         </ul>
       </section>
     </div>

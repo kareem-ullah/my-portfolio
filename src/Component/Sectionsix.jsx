@@ -6,13 +6,7 @@ function Sectionsix() {
     <div>
       <section>
         <ul class="benar-4-ul-1">
-          <li class="benar-4-img-li">
-            <figcaption class="benar-4-fig-1">
-              <figcaption class="benar-4-fig-2"></figcaption>
-            </figcaption>
-            <img class="benar-4-img" src={react3} alt="" />
-          </li>
-          <li class="benar-4-img-li"></li>
+            <img class="benar-6-img" src={react3} alt="" />
         </ul>
       </section>
     </div>

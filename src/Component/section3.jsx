@@ -4,7 +4,7 @@ import react2 from "../assets/image/logo-html-5-css-javascript.png";
 
 function BenarSection() {
   return (
-    <div>
+    <div className="section">
       <section>
         <ul class="benar-2-ul-2">
           <li class="benar-food">
@@ -27,21 +27,7 @@ function BenarSection() {
               </a>
             </span>
           </li>
-          <li class="benar-img-li">
-            <figcaption class="fig-cap-2">
-              <span class="heading-1">React</span>
-              <br />
-              <span>
-                React is a popular JavaScript library used for building dynamic
-                and interactive user interfaces, particularly for single-page
-                applications. It allows developers to create reusable UI
-                components that efficiently update and render when data changes.
-                React,s virtual DOM optimizes performance by minimizing the
-                number of direct interactions with the actual DOM.
-              </span>
-            </figcaption>
-            <img class="benar-2-img-2" src={react} alt="" />
-          </li>
+          <img class="react-img" src={react} alt="" />
         </ul>
       </section>
     </div>
